@@ -12,7 +12,7 @@ The code might also need some tweaking depending on your phone. If you have a Pi
 
 For all other phones, you will need to see which PREFERRED_NETOWRK_MODE value corresponds to your SIM. To do so:
 
-1. Start up adb for your device, and run `adb settings list global | grep preferred_network_mode`
+1. Start up adb for your device, and run `adb shell settings list global | grep preferred_network_mode`
 
     The output should look something like:
 
